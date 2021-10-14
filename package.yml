@@ -6,6 +6,8 @@ parent: default
 matches:
   - trigger: "mucho bueno"
     replace: "muy bueno"
+    propagate_case: true
+    word: true
   - trigger: "abduccion"
     replace: "abducción"  
     propagate_case: true
